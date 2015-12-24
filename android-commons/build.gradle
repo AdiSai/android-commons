@@ -4,7 +4,7 @@ ext {
     bintrayRepo = 'maven'
     bintrayName = 'android-commons'
 
-    publishedGroupId = 'com.adithyasairam.android.android-commons'
+    publishedGroupId = 'com.adithyasairam.android'
     libraryName = 'Android Commons'
     artifact = 'android-commons'
 
@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/AdiSai/android-commons'
     gitUrl = 'https://github.com/AdiSai/android-commons.git'
 
-    libraryVersion = '0.9.3'
+    libraryVersion = '1.0.0'
 
     developerId = 'adisai'
     developerName = 'Adi Sai'
