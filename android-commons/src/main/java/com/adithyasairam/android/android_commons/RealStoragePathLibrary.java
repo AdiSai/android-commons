@@ -55,7 +55,7 @@ public class RealStoragePathLibrary {
 
     private static final String TAG = RealStoragePathLibrary.class.getSimpleName();
 
-    public static final int 	MAX_INTERAL_COUNT = 3;
+    public static final int MAX_INTERAL_COUNT = 3;
 
     private static RealStoragePathLibrary mInstance;
     private Context mContext = null;
@@ -66,7 +66,7 @@ public class RealStoragePathLibrary {
 
     private boolean DEBUG = false;
 
-    public static String 	APP_SPECIFIC_DIRECTORY_SDCARD = null;
+    public static String APP_SPECIFIC_DIRECTORY_SDCARD = null;
 
     String realInternalStoragePath = null;
     String realRemovableStoragePath = null;

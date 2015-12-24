@@ -1,5 +1,29 @@
 apply plugin: 'com.android.library'
 
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'android-commons'
+
+    publishedGroupId = 'com.adithyasairam.android.android-commons'
+    libraryName = 'Android Commons'
+    artifact = 'android-commons'
+
+    libraryDescription = 'Common Utils for Android Apps'
+
+    siteUrl = 'https://github.com/AdiSai/android-commons'
+    gitUrl = 'https://github.com/AdiSai/android-commons.git'
+
+    libraryVersion = '0.9.3'
+
+    developerId = 'adisai'
+    developerName = 'Adi Sai'
+    developerEmail = 'adithya.sairam1@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
@@ -21,5 +45,7 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:23.1.1'
 }
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'

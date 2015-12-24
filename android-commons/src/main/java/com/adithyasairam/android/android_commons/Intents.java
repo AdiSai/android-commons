@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Parcelable;
 
-import com.adithyasairam.Utils.Misc.ClassTemplates.Builder;
+import com.adithyasairam.utils.misc.templates.Builder;
 
 import java.io.Serializable;
 import java.util.ArrayList;
